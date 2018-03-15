@@ -168,9 +168,23 @@ tools:context="com.athena.quizcarlosibarrai077117.MainActivity">
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/nombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mercado Libre"/>
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15-03-2018"
+                            android:layout_below="@id/nombre"/>
                         </RelativeLayout>
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-57.30"/>
 
                     </LinearLayout>
 
