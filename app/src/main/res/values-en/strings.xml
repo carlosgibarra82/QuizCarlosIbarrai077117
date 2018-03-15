@@ -6,4 +6,6 @@
     <string name="financiar">FINANCIAR</string>
     <string name="valor">$7.963.420</string>
     <string name="ingresos">Ingresos</string>
+    <string name="transacciones">Transacciones</string>
+    <string name="mas">mas</string>
 </resources>

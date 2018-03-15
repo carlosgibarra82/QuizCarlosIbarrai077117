@@ -7,4 +7,6 @@
     <string name="valor">$7.963.420</string>
     <string name="date">mar 15 - 22 2018</string>
     <string name="ingresos">Ingresos</string>
+    <string name="transacciones">Historial de Transacciones</string>
+    <string name="mas">mas</string>
 </resources>
