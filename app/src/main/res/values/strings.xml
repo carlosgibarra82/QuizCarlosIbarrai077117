@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">QuizCarlosIbarrai077117</string>
+    <string name="app_name">Quiz</string>
     <string name="moreoptions">Más Opciones</string>
+    <string name="search">Búsqueda</string>
+    <string name="share">Compartir</string>
+    <string name="financiar">FINANCIAR</string>
+    <string name="valor">$7.963.420</string>
+    <string name="date">mar 15 - 22 2018</string>
 </resources>

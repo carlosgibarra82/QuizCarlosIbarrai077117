@@ -9,11 +9,52 @@ android:layout_height="match_parent"
 android:orientation="vertical"
 tools:context="com.athena.quizcarlosibarrai077117.MainActivity">
 
+
+
 <android.support.design.widget.FloatingActionButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom|end"
     android:src="@drawable/plus"
     android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundindex">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/financiar"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+                android:id="@+id/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valor"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@id/value"/>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

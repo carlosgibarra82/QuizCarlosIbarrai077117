@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="moreoptions">More options</string>
+    <string name="search">Búsqueda</string>
+    <string name="share">Compartir</string>
+    <string name="financiar">FINANCIAR</string>
+    <string name="valor">$7.963.420</string>
 </resources>
