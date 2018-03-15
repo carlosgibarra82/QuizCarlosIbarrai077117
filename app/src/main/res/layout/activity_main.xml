@@ -25,14 +25,16 @@ tools:context="com.athena.quizcarlosibarrai077117.MainActivity">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:background="@drawable/backgroundindex">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/financiar"
             android:textColor="@android:color/white"
-            android:layout_centerHorizontal="true"/>
+            android:layout_above="@id/value"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"/>
         <TextView
                 android:id="@+id/value"
                 android:layout_width="wrap_content"
@@ -48,11 +50,56 @@ tools:context="com.athena.quizcarlosibarrai077117.MainActivity">
                 android:text="@string/date"
                 android:textColor="@android:color/white"
                 android:layout_centerHorizontal="true"
-                android:layout_alignBottom="@id/value"/>
-
-
-
+                android:layout_below="@id/value"
+                android:textSize="12dp"/>
         </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/ingreso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingresos"
+                    android:textColor="@color/colorSubText"
+                    android:layout_above="@id/valor1" />
+
+                <TextView
+                    android:id="@+id/valor1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$1.173.000"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="20dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+13%"
+                    android:layout_toRightOf="@id/ingreso"
+                    android:layout_above="@id/valor1"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1>
+            </RelativeLayout>
+
+        </LinearLayout>
 
 
     </LinearLayout>
